@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5CEA1EB50FC70A9A40C3D899 /* libPods-ParseHtmlDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7125C1F6D4A9160530478169 /* libPods-ParseHtmlDemo.a */; };
+		D25074051E68592700B6BC9D /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D25074041E68592700B6BC9D /* BaseModel.m */; };
+		D25074081E68595700B6BC9D /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D25074071E68595700B6BC9D /* HomeModel.m */; };
 		F346F2821E681CC1006668CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F346F2811E681CC1006668CC /* main.m */; };
 		F346F2851E681CC1006668CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F346F2841E681CC1006668CC /* AppDelegate.m */; };
 		F346F2881E681CC1006668CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F346F2871E681CC1006668CC /* ViewController.m */; };
@@ -21,6 +23,10 @@
 		246DF027A3CE32B487A4B6F2 /* Pods-ParseHtmlDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseHtmlDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseHtmlDemo/Pods-ParseHtmlDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		598858621E82C0997CD5F72F /* Pods-ParseHtmlDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseHtmlDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseHtmlDemo/Pods-ParseHtmlDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7125C1F6D4A9160530478169 /* libPods-ParseHtmlDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseHtmlDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25074031E68592700B6BC9D /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		D25074041E68592700B6BC9D /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		D25074061E68595700B6BC9D /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		D25074071E68595700B6BC9D /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		F346F27D1E681CC0006668CC /* ParseHtmlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseHtmlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F346F2811E681CC1006668CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F346F2831E681CC1006668CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +70,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D25074011E6858C000B6BC9D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D25074021E68591600B6BC9D /* Model */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D25074021E68591600B6BC9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D25074031E68592700B6BC9D /* BaseModel.h */,
+				D25074041E68592700B6BC9D /* BaseModel.m */,
+				D25074061E68595700B6BC9D /* HomeModel.h */,
+				D25074071E68595700B6BC9D /* HomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F346F2741E681CC0006668CC = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +116,7 @@
 				F346F2871E681CC1006668CC /* ViewController.m */,
 				F346F2971E681F85006668CC /* Post.h */,
 				F346F2981E681F85006668CC /* Post.m */,
+				D25074011E6858C000B6BC9D /* Base */,
 				F346F2891E681CC1006668CC /* Main.storyboard */,
 				F346F28C1E681CC1006668CC /* Assets.xcassets */,
 				F346F28E1E681CC1006668CC /* LaunchScreen.storyboard */,
@@ -231,7 +257,9 @@
 			files = (
 				F346F2881E681CC1006668CC /* ViewController.m in Sources */,
 				F346F2851E681CC1006668CC /* AppDelegate.m in Sources */,
+				D25074081E68595700B6BC9D /* HomeModel.m in Sources */,
 				F346F2821E681CC1006668CC /* main.m in Sources */,
+				D25074051E68592700B6BC9D /* BaseModel.m in Sources */,
 				F346F2991E681F85006668CC /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

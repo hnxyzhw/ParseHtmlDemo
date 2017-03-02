@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Post.h"
+#import "HomeModel.h"
 
 @interface ViewController ()
 
@@ -17,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [Post getNewPosts];
+  NSArray *ar=  [HomeModel getNewPosts];
+    
+    NSLog(@"%@",ar);
 }
 
 - (void)didReceiveMemoryWarning {
