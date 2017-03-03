@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5CEA1EB50FC70A9A40C3D899 /* libPods-ParseHtmlDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7125C1F6D4A9160530478169 /* libPods-ParseHtmlDemo.a */; };
+		D22E1CF81E698FEB00826116 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D22E1CF71E698FEB00826116 /* HomeModel.m */; };
+		D22E1CFE1E69A9E600826116 /* NSDate+ZHW.m in Sources */ = {isa = PBXBuildFile; fileRef = D22E1CFD1E69A9E600826116 /* NSDate+ZHW.m */; };
 		D25074051E68592700B6BC9D /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D25074041E68592700B6BC9D /* BaseModel.m */; };
-		D25074081E68595700B6BC9D /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D25074071E68595700B6BC9D /* HomeModel.m */; };
 		F32070411E691F0D00199A28 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F32070401E691F0D00199A28 /* libxml2.2.tbd */; };
 		F32070491E69218200199A28 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = F32070441E69218200199A28 /* TFHpple.m */; };
 		F320704A1E69218200199A28 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F32070461E69218200199A28 /* TFHppleElement.m */; };
@@ -34,10 +35,12 @@
 		246DF027A3CE32B487A4B6F2 /* Pods-ParseHtmlDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseHtmlDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseHtmlDemo/Pods-ParseHtmlDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		598858621E82C0997CD5F72F /* Pods-ParseHtmlDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseHtmlDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseHtmlDemo/Pods-ParseHtmlDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7125C1F6D4A9160530478169 /* libPods-ParseHtmlDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseHtmlDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22E1CF61E698FEB00826116 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		D22E1CF71E698FEB00826116 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		D22E1CFC1E69A9E600826116 /* NSDate+ZHW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZHW.h"; sourceTree = "<group>"; };
+		D22E1CFD1E69A9E600826116 /* NSDate+ZHW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZHW.m"; sourceTree = "<group>"; };
 		D25074031E68592700B6BC9D /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		D25074041E68592700B6BC9D /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
-		D25074061E68595700B6BC9D /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeModel.h; path = ../Base/Model/HomeModel.h; sourceTree = "<group>"; };
-		D25074071E68595700B6BC9D /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeModel.m; path = ../Base/Model/HomeModel.m; sourceTree = "<group>"; };
 		F32070401E691F0D00199A28 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		F32070431E69218200199A28 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
 		F32070441E69218200199A28 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
@@ -102,6 +105,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D22E1CF51E698FD400826116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D22E1CF61E698FEB00826116 /* HomeModel.h */,
+				D22E1CF71E698FEB00826116 /* HomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D22E1CFA1E69A9CD00826116 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D22E1CFB1E69A9D700826116 /* Category */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D22E1CFB1E69A9D700826116 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D22E1CFC1E69A9E600826116 /* NSDate+ZHW.h */,
+				D22E1CFD1E69A9E600826116 /* NSDate+ZHW.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		D25074011E6858C000B6BC9D /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,15 +179,6 @@
 				F32070691E694C7900199A28 /* ArticleTableCell.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		F320704E1E69485800199A28 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D25074061E68595700B6BC9D /* HomeModel.h */,
-				D25074071E68595700B6BC9D /* HomeModel.m */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		F320704F1E69489100199A28 /* Controller */ = {
@@ -212,9 +232,10 @@
 		F346F27F1E681CC1006668CC /* ParseHtmlDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D22E1CFA1E69A9CD00826116 /* Tool */,
+				D22E1CF51E698FD400826116 /* Model */,
 				F320704C1E69483900199A28 /* Controller */,
 				F320704D1E69484900199A28 /* View */,
-				F320704E1E69485800199A28 /* Model */,
 				F346F2831E681CC1006668CC /* AppDelegate.h */,
 				F346F2841E681CC1006668CC /* AppDelegate.m */,
 				F346F2861E681CC1006668CC /* ViewController.h */,
@@ -369,13 +390,14 @@
 				F320706A1E694C7900199A28 /* ArticleTableCell.m in Sources */,
 				F346F2881E681CC1006668CC /* ViewController.m in Sources */,
 				F346F2851E681CC1006668CC /* AppDelegate.m in Sources */,
-				D25074081E68595700B6BC9D /* HomeModel.m in Sources */,
 				F320704B1E69218200199A28 /* XPathQuery.m in Sources */,
 				F32070491E69218200199A28 /* TFHpple.m in Sources */,
 				F32070651E694BF100199A28 /* BaseTableViewCell.m in Sources */,
 				F346F2821E681CC1006668CC /* main.m in Sources */,
+				D22E1CFE1E69A9E600826116 /* NSDate+ZHW.m in Sources */,
 				F320705A1E69496E00199A28 /* HomeVC.m in Sources */,
 				D25074051E68592700B6BC9D /* BaseModel.m in Sources */,
+				D22E1CF81E698FEB00826116 /* HomeModel.m in Sources */,
 				F346F2991E681F85006668CC /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +516,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.andson.net.ParseHtmlDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -507,6 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.andson.net.ParseHtmlDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

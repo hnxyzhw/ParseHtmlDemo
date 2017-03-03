@@ -17,7 +17,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *articleContentLab;
 
-@property (weak, nonatomic) IBOutlet UIButton *articleTypeBtn;
+@property (weak, nonatomic) IBOutlet UILabel *articleTagLab;
 
 @property (weak, nonatomic) IBOutlet UILabel *readNumLab;
 
