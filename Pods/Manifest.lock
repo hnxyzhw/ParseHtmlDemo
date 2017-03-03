@@ -1,12 +1,17 @@
 PODS:
   - Ono (1.2.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
   - Ono (~> 1.2.2)
+  - SDWebImage (~> 4.0.0)
 
 SPEC CHECKSUMS:
   Ono: 80b1c686777d3f6d5d5ce6fcac8a74afef4ca197
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 3defba77daaa937269d1924c05cc18f78b14d1f1
+PODFILE CHECKSUM: 5d2ec09d96980520af8d5351e52a422f2d689e52
 
 COCOAPODS: 1.2.0

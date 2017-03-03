@@ -10,6 +10,17 @@
 		5CEA1EB50FC70A9A40C3D899 /* libPods-ParseHtmlDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7125C1F6D4A9160530478169 /* libPods-ParseHtmlDemo.a */; };
 		D25074051E68592700B6BC9D /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D25074041E68592700B6BC9D /* BaseModel.m */; };
 		D25074081E68595700B6BC9D /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D25074071E68595700B6BC9D /* HomeModel.m */; };
+		F32070411E691F0D00199A28 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F32070401E691F0D00199A28 /* libxml2.2.tbd */; };
+		F32070491E69218200199A28 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = F32070441E69218200199A28 /* TFHpple.m */; };
+		F320704A1E69218200199A28 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F32070461E69218200199A28 /* TFHppleElement.m */; };
+		F320704B1E69218200199A28 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F32070481E69218200199A28 /* XPathQuery.m */; };
+		F32070531E6948F100199A28 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32070521E6948F100199A28 /* BaseViewController.m */; };
+		F32070561E69490500199A28 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F32070551E69490500199A28 /* BaseView.m */; };
+		F320705A1E69496E00199A28 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F32070591E69496E00199A28 /* HomeVC.m */; };
+		F32070651E694BF100199A28 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F32070631E694BF100199A28 /* BaseTableViewCell.m */; };
+		F32070661E694BF100199A28 /* BaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F32070641E694BF100199A28 /* BaseTableViewCell.xib */; };
+		F320706A1E694C7900199A28 /* ArticleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F32070681E694C7900199A28 /* ArticleTableCell.m */; };
+		F320706B1E694C7900199A28 /* ArticleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F32070691E694C7900199A28 /* ArticleTableCell.xib */; };
 		F346F2821E681CC1006668CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F346F2811E681CC1006668CC /* main.m */; };
 		F346F2851E681CC1006668CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F346F2841E681CC1006668CC /* AppDelegate.m */; };
 		F346F2881E681CC1006668CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F346F2871E681CC1006668CC /* ViewController.m */; };
@@ -25,8 +36,27 @@
 		7125C1F6D4A9160530478169 /* libPods-ParseHtmlDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseHtmlDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25074031E68592700B6BC9D /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		D25074041E68592700B6BC9D /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
-		D25074061E68595700B6BC9D /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
-		D25074071E68595700B6BC9D /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		D25074061E68595700B6BC9D /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeModel.h; path = ../Base/Model/HomeModel.h; sourceTree = "<group>"; };
+		D25074071E68595700B6BC9D /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeModel.m; path = ../Base/Model/HomeModel.m; sourceTree = "<group>"; };
+		F32070401E691F0D00199A28 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		F32070431E69218200199A28 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		F32070441E69218200199A28 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		F32070451E69218200199A28 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		F32070461E69218200199A28 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		F32070471E69218200199A28 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		F32070481E69218200199A28 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		F32070511E6948F100199A28 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F32070521E6948F100199A28 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F32070541E69490500199A28 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		F32070551E69490500199A28 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		F32070581E69496E00199A28 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		F32070591E69496E00199A28 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		F32070621E694BF100199A28 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		F32070631E694BF100199A28 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		F32070641E694BF100199A28 /* BaseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTableViewCell.xib; sourceTree = "<group>"; };
+		F32070671E694C7900199A28 /* ArticleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleTableCell.h; sourceTree = "<group>"; };
+		F32070681E694C7900199A28 /* ArticleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTableCell.m; sourceTree = "<group>"; };
+		F32070691E694C7900199A28 /* ArticleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleTableCell.xib; sourceTree = "<group>"; };
 		F346F27D1E681CC0006668CC /* ParseHtmlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseHtmlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F346F2811E681CC1006668CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F346F2831E681CC1006668CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32070411E691F0D00199A28 /* libxml2.2.tbd in Frameworks */,
 				5CEA1EB50FC70A9A40C3D899 /* libPods-ParseHtmlDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +96,7 @@
 		53352B25ED8BCE2CC8B6D301 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F32070401E691F0D00199A28 /* libxml2.2.tbd */,
 				7125C1F6D4A9160530478169 /* libPods-ParseHtmlDemo.a */,
 			);
 			name = Frameworks;
@@ -73,6 +105,8 @@
 		D25074011E6858C000B6BC9D /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F320704F1E69489100199A28 /* Controller */,
+				F32070501E69489F00199A28 /* View */,
 				D25074021E68591600B6BC9D /* Model */,
 			);
 			path = Base;
@@ -83,10 +117,78 @@
 			children = (
 				D25074031E68592700B6BC9D /* BaseModel.h */,
 				D25074041E68592700B6BC9D /* BaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F32070421E69217700199A28 /* TFHpple */ = {
+			isa = PBXGroup;
+			children = (
+				F32070431E69218200199A28 /* TFHpple.h */,
+				F32070441E69218200199A28 /* TFHpple.m */,
+				F32070451E69218200199A28 /* TFHppleElement.h */,
+				F32070461E69218200199A28 /* TFHppleElement.m */,
+				F32070471E69218200199A28 /* XPathQuery.h */,
+				F32070481E69218200199A28 /* XPathQuery.m */,
+			);
+			path = TFHpple;
+			sourceTree = "<group>";
+		};
+		F320704C1E69483900199A28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F32070571E69492800199A28 /* Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F320704D1E69484900199A28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F32070671E694C7900199A28 /* ArticleTableCell.h */,
+				F32070681E694C7900199A28 /* ArticleTableCell.m */,
+				F32070691E694C7900199A28 /* ArticleTableCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F320704E1E69485800199A28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				D25074061E68595700B6BC9D /* HomeModel.h */,
 				D25074071E68595700B6BC9D /* HomeModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F320704F1E69489100199A28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F32070511E6948F100199A28 /* BaseViewController.h */,
+				F32070521E6948F100199A28 /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F32070501E69489F00199A28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F32070541E69490500199A28 /* BaseView.h */,
+				F32070551E69490500199A28 /* BaseView.m */,
+				F32070621E694BF100199A28 /* BaseTableViewCell.h */,
+				F32070631E694BF100199A28 /* BaseTableViewCell.m */,
+				F32070641E694BF100199A28 /* BaseTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F32070571E69492800199A28 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F32070581E69496E00199A28 /* HomeVC.h */,
+				F32070591E69496E00199A28 /* HomeVC.m */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		F346F2741E681CC0006668CC = {
@@ -110,12 +212,16 @@
 		F346F27F1E681CC1006668CC /* ParseHtmlDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F320704C1E69483900199A28 /* Controller */,
+				F320704D1E69484900199A28 /* View */,
+				F320704E1E69485800199A28 /* Model */,
 				F346F2831E681CC1006668CC /* AppDelegate.h */,
 				F346F2841E681CC1006668CC /* AppDelegate.m */,
 				F346F2861E681CC1006668CC /* ViewController.h */,
 				F346F2871E681CC1006668CC /* ViewController.m */,
 				F346F2971E681F85006668CC /* Post.h */,
 				F346F2981E681F85006668CC /* Post.m */,
+				F32070421E69217700199A28 /* TFHpple */,
 				D25074011E6858C000B6BC9D /* Base */,
 				F346F2891E681CC1006668CC /* Main.storyboard */,
 				F346F28C1E681CC1006668CC /* Assets.xcassets */,
@@ -194,9 +300,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32070661E694BF100199A28 /* BaseTableViewCell.xib in Resources */,
 				F346F2901E681CC1006668CC /* LaunchScreen.storyboard in Resources */,
 				F346F28D1E681CC1006668CC /* Assets.xcassets in Resources */,
 				F346F28B1E681CC1006668CC /* Main.storyboard in Resources */,
+				F320706B1E694C7900199A28 /* ArticleTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +363,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32070561E69490500199A28 /* BaseView.m in Sources */,
+				F320704A1E69218200199A28 /* TFHppleElement.m in Sources */,
+				F32070531E6948F100199A28 /* BaseViewController.m in Sources */,
+				F320706A1E694C7900199A28 /* ArticleTableCell.m in Sources */,
 				F346F2881E681CC1006668CC /* ViewController.m in Sources */,
 				F346F2851E681CC1006668CC /* AppDelegate.m in Sources */,
 				D25074081E68595700B6BC9D /* HomeModel.m in Sources */,
+				F320704B1E69218200199A28 /* XPathQuery.m in Sources */,
+				F32070491E69218200199A28 /* TFHpple.m in Sources */,
+				F32070651E694BF100199A28 /* BaseTableViewCell.m in Sources */,
 				F346F2821E681CC1006668CC /* main.m in Sources */,
+				F320705A1E69496E00199A28 /* HomeVC.m in Sources */,
 				D25074051E68592700B6BC9D /* BaseModel.m in Sources */,
 				F346F2991E681F85006668CC /* Post.m in Sources */,
 			);
@@ -373,6 +489,7 @@
 			baseConfigurationReference = 246DF027A3CE32B487A4B6F2 /* Pods-ParseHtmlDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ParseHtmlDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.andson.net.ParseHtmlDemo;
@@ -385,6 +502,7 @@
 			baseConfigurationReference = 598858621E82C0997CD5F72F /* Pods-ParseHtmlDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ParseHtmlDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.andson.net.ParseHtmlDemo;

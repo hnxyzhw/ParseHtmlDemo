@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CC6A8192DD5122D45667450021FC5C60'
+               BlueprintIdentifier = 'B893D9E628EBD8F2237C1993B96539C7'
                BlueprintName = 'Pods-ParseHtmlDemo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-ParseHtmlDemo.a'>
